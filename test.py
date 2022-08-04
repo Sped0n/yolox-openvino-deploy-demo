@@ -15,8 +15,9 @@ if __name__ == '__main__':
     test_img = False
     # vid_path = 'IMG_6952.mp4'
     vid_path = 0
+    img_path = 'test.jpg'
     if test_img:
-        frame = cv2.imread('test.jpg', 1)
+        frame = cv2.imread(img_path, 1)
         dets = net.result(frame)
         print(dets)
         if dets is not None:
