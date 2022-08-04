@@ -5,7 +5,7 @@ from infer import ovnet
 
 cls = ['R3', 'B3', 'R0', 'B0', 'R4', 'B4', 'land']
 # model_path = 'example/nets/decode-sim.onnx'
-model_path = ('example/nets/yolox_fp16.xml', 'example/nets/yolox_fp16.bin')
+model_path = ('nets/yolox_fp16.xml', 'nets/yolox_fp16.bin')
 
 if __name__ == '__main__':
     # openvino_model = OpenVINO_Forward(('nets/nanodet_fp16.xml', 'nets/nanodet_fp16.bin'))
